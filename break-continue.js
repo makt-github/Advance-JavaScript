@@ -1,28 +1,28 @@
 
 
-const array = [1,2,3,4,5,6,-1,-2,-3,7,8,9];
+// const array = [1,2,3,4,5,6,-1,-2,-3,7,8,9];
 
-console.log("Break: ");
+// console.log("Break: ");
 
-for(let i = 0; i < array.length; i++){
+// for(let i = 0; i < array.length; i++){
     
-    //console.log(array[i]);
-    if(i > 4){
-        break;
-    }
-    console.log(array[i]);
-}
+//     //console.log(array[i]);
+//     if(i > 4){
+//         break;
+//     }
+//     console.log(array[i]);
+// }
 
-console.log("Continue: ");
+// console.log("Continue: ");
 
-for(let i = 0; i < array.length; i++){
+// for(let i = 0; i < array.length; i++){
     
-    // console.log(array[i]);
-    if(array[i] < 0){
-        continue;
-    }
-    console.log(array[i]);
-}
+//     // console.log(array[i]);
+//     if(array[i] < 0){
+//         continue;
+//     }
+//     console.log(array[i]);
+// }
 
 // console.log(x);
 // var x = 1 ;
@@ -33,3 +33,20 @@ for(let i = 0; i < array.length; i++){
     
 //     }
 //     doSomething(3,2);
+
+
+// if({}){
+//     console.log("I am not false")
+// }
+// else{
+//     console.log("I am false")
+// }
+
+
+
+if( 'false' ){
+    console.log("I am not false")
+}
+else{
+    console.log("I am false")
+}
